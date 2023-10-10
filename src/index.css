@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background-color:ghostwhite;
+  /* font-family: 'Roboto Slab', serif;
+   */
+   font-family: 'Abril Fatface', Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+.star-rating button{
+  background-color: transparent;
+  border:none;
+  outline:none;
+  cursor:pointer;
+}
+.on{
+  color:#FFD700;
+
+}
+.off{
+  color:gray;
+}
+
+
+.star-rating{
+  display: flex;
+  align-items: center;
+  
+}
+.products{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  
+  row-gap: 2rem;
+  column-gap: 1rem;
+
+}
+
+.spinner{
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 10%;
+    padding: 20px;
+    /* border: 1px solid rgb(55, 53, 53); */
+
+}
+
+.hello{
+  font-size: larger;
+  font-weight: 400;
+  color:azure;
+  margin-top: 3rem;
+ 
+
+}
+
+.hii{
+  /* margin:auto; */
+  /* margin-top:20%; */
+  line-height: 3rem;
+  width:100%;
+  text-align: center;
+  height: 12vh;
+}
+.icon{
+  top:16px;
+
+  left:10px;
+}
+
+.icon2{
+  top:10px;
+
+  left:10px;
+}
+
+
+.custom-toast-container {
+  width: 50w;
+  margin: auto;
+  /* min-height:80px; */
+  height: auto;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Customize toast notification title */
+.custom-toast-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Customize toast notification message */
+.custom-toast-message {
+  font-size: 14px;
+}
+
+.header{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size:2rem;
+  
+}
